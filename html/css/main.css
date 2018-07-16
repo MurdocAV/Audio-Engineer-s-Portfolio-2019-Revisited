@@ -1,3 +1,7 @@
+.bg{
+	background-attachment:fixed;
+}
+
 #footer{
  	text-align: center
 }
@@ -18,10 +22,10 @@
 	margin-left: 50px;
 	color: white;
 	opacity: 0.7;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
-.col-sm-3{
+.col-sm-2{
 	text-align: center;
 }
 
@@ -35,7 +39,7 @@
 	text-shadow: 1.75px 1.75px black;
 	opacity: 0.9;
 	color: white;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #gear-link{
@@ -58,7 +62,7 @@ nav {
 	text-align: right;
 	list-style: none;
 	margin-right:0px;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 
 }
 
@@ -89,7 +93,7 @@ nav a:hover{
 h1,h2,p {
 	color: white;
 	opacity: 0.8;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 
 }
 
@@ -97,7 +101,7 @@ h1,h2,p {
 	text-shadow: 1.5px 1.5px black;
 	opacity: 0.9;
 	color: white;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #header1{
