@@ -1,0 +1,60 @@
+html { 
+  background: url(images/discoBg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main {
+  background: url(images/discoBg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  text-align: center;
+
+  display: grid;
+  align-items: stretch;
+  grid-template-areas: 
+  "header header header header"
+  "a1 a2 a3 a4"
+  "b1 b2 b3 b4"
+  "c1 c2 c3 c4";
+  grid-gap: 1em;
+}
+
+.fullPage {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  opacity: 0.4;
+}
+
+.albumArt {
+  height: 250px;
+  width: auto;
+}
+
+.header {
+  color: pink;
+  text-align: center;
+  grid-area: header;
+}
+
+.a1 {
+  grid-area: a1;
+}
+
+.a2 {
+  grid-area: a2;
+}
+
+.a3 {
+  grid-area: a3;
+}
+
+.a4 {
+  grid-area: a4;
+}

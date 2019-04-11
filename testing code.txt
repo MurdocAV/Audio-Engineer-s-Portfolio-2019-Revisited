@@ -1,0 +1,2 @@
+<img src={data.albums.artwork} alt="Artwork Should be here"/>
+style={this.state.style}
