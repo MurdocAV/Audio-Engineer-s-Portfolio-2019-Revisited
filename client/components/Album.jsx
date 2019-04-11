@@ -1,4 +1,5 @@
 import React from 'react'
+import BigPicture from 'BigPicture'
 import data from '../../data.json'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
@@ -28,7 +29,7 @@ class Album extends React.Component {
   }
 
   bigPicture = () => {
-    
+    return opacity
   }
   
   render () {
@@ -36,9 +37,9 @@ class Album extends React.Component {
       <React.Fragment>
         <div className={this.props.albumClass} onClick={}> 
         <Link to={data.albums.artwork}>
-          {console.log("Current styles:",this.props.albumClass)}
+          <BigPicture opacity='0'/>
           <img className = "albumArt"src={data.albums.artwork} alt="Album Art not working"/>
-          </Link>
+        </Link>
         </div>
       </React.Fragment>
     )
