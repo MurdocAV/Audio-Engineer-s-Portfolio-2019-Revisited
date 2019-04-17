@@ -11,10 +11,10 @@ function Main (props) {
     <React.Fragment>
       <Router>
         <Header />
-        <Album albumClass="a1" />
-        <Album albumClass="a2" />
-        <Album albumClass="a3" />
-        <Album albumClass="a4" />
+        <Album albumClass="1" />
+        <Album albumClass="2" />
+        <Album albumClass="3" />
+        <Album albumClass="4" />
       </Router>
     </React.Fragment>
   )
