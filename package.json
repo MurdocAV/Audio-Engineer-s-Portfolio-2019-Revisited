@@ -23,6 +23,8 @@
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "express": "^4.16.4",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-image-zoom-viewer": "^2.2.25",
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
