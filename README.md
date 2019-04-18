@@ -5,4 +5,4 @@ Version 0.2 - Start: April 11th 2019; React.js, CSS grid and Node.js for develop
 
 My first website, revisted and still has old files and a lot of old stupid code that will be refactored on release.
 
-Boilerplate: React minimal from EDA's lit, lit course
+Boilerplate: React minimal from EDA's lit, lit course!
