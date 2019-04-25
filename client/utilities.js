@@ -7,9 +7,9 @@ var modalImg = document.getElementById('img01')
 var captionText = document.getElementById('caption')
 
 img.onclick = function () {
-  modal.style.display = 'block'
-  modalImg.src = this.src
-  captionText.innerHTML = 'College Dropout'
+  modal.style.display = 'block';
+  modalImg.src = this.s22rc
+  captionText.innerHTML = 'College Dropout';
 }
 
 // Get the <span> element that closes the modal
@@ -17,5 +17,5 @@ var span = document.getElementsByClassName('close')[0]
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
-  modal.style.display = 'none'
+  modal.style.display = 'none';
 }

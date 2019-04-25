@@ -1,12 +1,11 @@
 import React from 'react'
-import BigPicture from './BigPicture'
 import data from '../../data.json'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
+import Modal from './Modal'
 
+/*
 
-/* 
-
-Change the first div under render to use the functions of GitHub framework to 
+Change the first div under render to use the functions of GitHub framework to
 become functioning on click.
 
 */
@@ -16,42 +15,33 @@ class Album extends React.Component {
     super()
 
     this.state = {
-      style: 
+      style:
       {
-        height: '10vh',
-        width: 'auto',
-        backgroundColor: "none"
+        stateProperty: ''
       }
     }
   }
-  
-  zoom () {
-    this.setState({style:
-      {
-        textAlign: "center",
-        height: "50vh",
-        width: "auto",
-        background: "gray"
-      }
-    })
+
+  returnModal () {
+    <Modal />
   }
 
-  bigPicture () {
-    return 
-  }
-  
   render () {
+    const albumClass = this.props.albumClass
+
     return (
       <React.Fragment>
-        <div className={this.props.albumClass} onClick={() => console.log('Hello')}> 
-        <Link to={data.albums[this.props.albumClass].id}>
-          <img className = "albumArt"src={data.albums[this.props.albumClass].artwork} alt="Album Art not working"/>
-        </Link>
+        <div className={`${albumClass} albums`} onClick={() => this.returnModal()}>
+          <Link to={data.albums[albumClass].id}>
+            <div className="ablumDiv">
+              <img className = "albumArt" src={data.albums[albumClass].artwork}
+                onClick={() => console.log("Clicked on " + data.albums[albumClass].albumName)} alt="Album Art not working"/>
+            </div>
+          </Link>
         </div>
       </React.Fragment>
     )
-  } 
+  }
 }
-
 
 export default Album
