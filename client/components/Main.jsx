@@ -5,7 +5,7 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 function Main (props) {
   // eslint-disable-next-line no-console
-  console.log('Logging props in main:', props)
+  // console.log('Logging props in main:', props)
 
   return (
     <React.Fragment>

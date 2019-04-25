@@ -61,11 +61,11 @@
 
     "3" : {
       "id" : "3",
-      "albumName" : "Revolver",
-      "artist" : "The Beatles",
-      "year" : "1966",
-      "releaseDate" : "August 5, 1966",
-      "artwork" : "./images/revolver.jpg",
+      "albumName" : "Malibu",
+      "artist" : "Anderson Pakk",
+      "year" : "2016",
+      "releaseDate" : "January 15, 2016",
+      "artwork" : "./images/malibu.png",
       "trackList" : 
         [
           {"trackId" : 1, "title" : "Paranoid"},
