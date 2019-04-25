@@ -8,15 +8,13 @@ function Main (props) {
   // console.log('Logging props in main:', props)
 
   return (
-    <React.Fragment>
-      <Router>
-        <Header />
-        <Album albumClass="1" />
-        <Album albumClass="2" />
-        <Album albumClass="3" />
-        <Album albumClass="4" />
-      </Router>
-    </React.Fragment>
+    <Router>
+      <Header />
+      <Album albumClass="1" />
+      <Album albumClass="2" />
+      <Album albumClass="3" />
+      <Album albumClass="4" />
+    </Router>
   )
 }
 

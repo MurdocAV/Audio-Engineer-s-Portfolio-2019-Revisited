@@ -9,7 +9,7 @@ var captionText = document.getElementById('caption')
 img.onclick = function () {
   modal.style.display = 'block'
   modalImg.src = this.src
-  captionText.innerHTML = 'College Dropout'
+  captionText.innerHTML = ['College Dropout']
 }
 
 // Get the <span> element that closes the modal
