@@ -15,10 +15,7 @@ class Album extends React.Component {
     super()
 
     this.state = {
-      style:
-      {
-        stateProperty: ''
-      }
+      activeModal: false
     }
   }
 
@@ -31,11 +28,13 @@ class Album extends React.Component {
 
     return (
       <React.Fragment>
-        <div className={`${albumClass} albums`} onClick={() => this.returnModal()}>
+        <div className={`${albumClass} albums`}>
           <Link to={data.albums[albumClass].id}>
             <div className="ablumDiv">
               <img className = "albumArt" src={data.albums[albumClass].artwork}
-                onClick={() => console.log("Clicked on " + data.albums[albumClass].albumName)} alt="Album Art not working"/>
+                // onClick={() => console.log("Clicked on " + data.albums[albumClass].albumName)} 
+                onClick={() => this.returnModal()
+                alt="Album Art not working"/>
             </div>
           </Link>
         </div>
