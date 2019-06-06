@@ -1,9 +1,9 @@
-import Main from './components/Main'
+import App from './components/App'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
 
 ReactDOM.render(
-  <Main/>,
+  <App/>,
   document.getElementById('main')
 )

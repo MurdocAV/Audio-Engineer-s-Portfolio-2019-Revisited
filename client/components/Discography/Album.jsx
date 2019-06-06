@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../data.json'
+import data from '../../../data.json'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 import Modal from './Modal'
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Album from './Album.jsx'
-import Header from './Header.jsx'
+import Album from './Discography/Album.jsx'
+import Header from './Discography/Header.jsx'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 function Main (props) {
