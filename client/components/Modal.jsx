@@ -11,3 +11,8 @@ export default function Modal (props) {
     </div>
   )
 }
+
+var i = 7;
+console.log(i)
+
+
