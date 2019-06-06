@@ -33,7 +33,7 @@ class Album extends React.Component {
             <div className="ablumDiv">
               <img className = "albumArt" src={data.albums[albumClass].artwork}
                 // onClick={() => console.log("Clicked on " + data.albums[albumClass].albumName)} 
-                onClick={() => this.returnModal()
+                onClick={() => this.returnModal()}
                 alt="Album Art not working"/>
             </div>
           </Link>
