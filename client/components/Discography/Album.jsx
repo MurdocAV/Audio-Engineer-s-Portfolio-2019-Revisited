@@ -32,7 +32,7 @@ class Album extends React.Component {
           <Link to={data.albums[albumClass].id}>
             <div className="ablumDiv">
               <img className = "albumArt" src={data.albums[albumClass].artwork}
-                // onClick={() => console.log("Clicked on " + data.albums[albumClass].albumName)} 
+                // TODO: On clicking on an artwork open up modal with background greyed out and have details of descriptors (Track list, relase --> refer to data.json) of the album.
                 onClick={() => this.returnModal()}
                 alt="Album Art not working"/>
             </div>
