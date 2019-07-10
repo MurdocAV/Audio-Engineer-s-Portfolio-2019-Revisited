@@ -20,7 +20,9 @@ class Album extends React.Component {
   }
 
   returnModal () {
-    <Modal />
+    console.log('attempting to render modal')
+    this.setState({activeModal: !this.state.activeModal})
+    return
   }
 
   render () {
