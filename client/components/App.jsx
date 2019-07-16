@@ -1,15 +1,20 @@
 import React from 'react'
-import Discography from './Discography/Discography.jsx'
-import Header from './Header.jsx'
+import Discography from './Discography/Discography'
+import Home from './Home/Home'
+import Contact from './Contact/Contact'
+import Header from './Header'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 class App extends React.Component {
-// Stateful component
+  state= {
+    currentPage: 'Header'
+  }
+
   render() {
     return (
       <Router>
         <Header />
-        <Discography />
+        <Home />
       </Router>
     )
   }
