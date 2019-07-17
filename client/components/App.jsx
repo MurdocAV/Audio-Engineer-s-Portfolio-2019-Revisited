@@ -14,7 +14,10 @@ class App extends React.Component {
     return (
       <Router>
         <Header />
-        <Home />
+        {
+          // TODO: Add working links to go to different pages on the website.
+        }
+        <Discography />
       </Router>
     )
   }
