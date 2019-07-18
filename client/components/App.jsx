@@ -16,6 +16,7 @@ class App extends React.Component {
         <Header />
         {
           // TODO: Add working links to go to different pages on the website.
+          // Use <Link activeClassName="active"/> (the activeClassName will help css rendering)
         }
         <Discography />
       </Router>
