@@ -49,6 +49,8 @@ h2 a:hover {
 }
 
 .titleHeader {
+  float: left;
+  margin-left: 2.0vw;
   color: rgb(242, 242, 242);
   text-transform: uppercase;
 }
@@ -87,10 +89,6 @@ h2 a:hover {
   100% { opacity: 0.5;}
 } */
 
-.title {
-  grid-area: title;
-}
-
 .header {
   display: flex;
   flex-direction: row;
@@ -100,14 +98,25 @@ h2 a:hover {
   display: grid;
   align-items: stretch;
   grid-template-areas: 
-  "header header header header"
+  "title blank blank nav";
   grid-gap: 1em;
 }
 
+.title {
+  margin-left: 0px;
+  grid-area: title;
+}
+
 .nav {
+  grid-area: nav;
+  float: right;
+  margin-left: 2.5vw;
   display: flex;
   flex-direction: row;
-  grid-area: nav;
+}
+
+.home {
+  margin-left: 45.0vw;
 }
 
 .a1 {
