@@ -41,7 +41,7 @@ h2 a:hover {
   display: grid;
   align-items: stretch;
   grid-template-areas: 
-  "title header header nav"
+  "header header header header"
   "a1 a2 a3 a4"
   "b1 b2 b3 b4"
   "c1 c2 c3 c4";
@@ -95,6 +95,13 @@ h2 a:hover {
   display: flex;
   flex-direction: row;
   grid-area: header;
+
+  /* Grid for the navigation bar only */
+  display: grid;
+  align-items: stretch;
+  grid-template-areas: 
+  "header header header header"
+  grid-gap: 1em;
 }
 
 .nav {

@@ -3,9 +3,9 @@ import React from 'react'
 class Home extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <div className='home'>
         <p>Based in Auckland</p>
-      </React.Fragment>
+      </div>
     )
   }
 }
