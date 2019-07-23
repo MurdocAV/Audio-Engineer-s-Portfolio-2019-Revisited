@@ -5,10 +5,8 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom'
 // import Modal from './Modal'
 
 /*
-
 Change the first div under render to use the functions of GitHub framework to
 become functioning on click.
-
 */
 
 class Album extends React.Component {
