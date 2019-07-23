@@ -6,12 +6,12 @@ function Discography (props) {
   // console.log('Logging props in Discography:', props)
 
   return (
-    <React.Fragment>
+    <div className="discography">
       <Album albumClass="1" />
       <Album albumClass="2" />
       <Album albumClass="3" />
       <Album albumClass="4" />
-    </React.Fragment>
+    </div>
   )
 }
 

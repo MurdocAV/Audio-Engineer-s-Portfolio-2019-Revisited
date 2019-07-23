@@ -29,7 +29,7 @@ h2 a:hover {
   color: rgb(191, 191, 191);
 }
 
-#main {
+.discography {
   text-align: center;
 
   display: grid;
@@ -52,8 +52,6 @@ h2 a:hover {
 .fullPage {
   height: 100%;
   width: 100%;
-  background-color: green;
-  opacity: 0.4;
 }
 
 .albumArt {
@@ -73,15 +71,20 @@ h2 a:hover {
   transition-delay:0.15s;
 }
 
-/* .albumArt:hover {
-  animation: spin 8s linear;
+/* Optional code to make albums spin on hover */
+
+/*
+.albumArt:hover {
+  animation: spin 8s linear;  text-align: center;
 }
+
 @keyframes spin {
   0% { opacity: 1; ,transform: rotate(0deg); }
   10% { opacity: 1; ,transform: rotate(0deg); }
   99% { transform: rotate(360deg); }
   100% { opacity: 0.5;}
-} */
+} 
+*/
 
 .header {
   display: flex;
@@ -109,8 +112,16 @@ h2 a:hover {
   flex-direction: row;
 }
 
-.home {
+.homeLink {
   margin-left: 45.0vw;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  color: pink;
 }
 
 .a1 {

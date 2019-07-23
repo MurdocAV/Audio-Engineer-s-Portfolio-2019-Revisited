@@ -8,9 +8,9 @@ function Header (props) {
         <h1 className="titleHeader">Name Placeholder</h1>
       </div>
       <div className="nav">
-        <h2 className="home"><Link to={'/Home'}>Home</Link></h2>
-        <h2 className="discography active"><Link to={'/Discography'}>Discography</Link></h2>
-        <h2 className="contact"><Link to={'/Contact'}>Contact</Link></h2>
+        <h2 className="homeLink"><Link to={'/Home'}>Home</Link></h2>
+        <h2 className="discographyLink active"><Link to={'/Discography'}>Discography</Link></h2>
+        <h2 className="contactLink"><Link to={'/Contact'}>Contact</Link></h2>
       </div>
     </div>
   )
