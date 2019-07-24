@@ -3,6 +3,12 @@ import {Link, IndexLink, Route} from 'react-router-dom'
 
 class Header extends React.Component {
   
+  //TODO: Run a function on click of a link to add the class of active to the clicked link.
+  logEvent (e) {
+    console.log(e)
+  }
+
+
   render () {
     return (
     <div className="header">
@@ -10,7 +16,8 @@ class Header extends React.Component {
         <h1 className="titleHeader">Name Placeholder</h1>
       </div>
       <div className="nav">
-        <Link className="homeLink" to={'/Home'}>Home</Link>
+        {/* NB First link also has experimental code. */}
+        <Link onClick={e => logEvent(e)} className="homeLink" to={'/Home'}>Home</Link>
         <Link className="discographyLink" activeClassName="active" to={'/Discography'}>Discography</Link>
         <Link className="contactLink" activeClassName="active" to={'/Contact'}>Contact</Link>
       </div>
