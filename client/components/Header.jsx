@@ -1,19 +1,22 @@
 import React from 'react'
-import {Link, Route} from 'react-router-dom'
+import {Link, IndexLink, Route} from 'react-router-dom'
 
-function Header (props) {
-  return (
+class Header extends React.Component {
+  
+  render () {
+    return (
     <div className="header">
       <div className="title">
         <h1 className="titleHeader">Name Placeholder</h1>
       </div>
       <div className="nav">
-        <h2 className="homeLink"><Link to={'/Home'}>Home</Link></h2>
-        <h2 className="discographyLink active"><Link to={'/Discography'}>Discography</Link></h2>
-        <h2 className="contactLink"><Link to={'/Contact'}>Contact</Link></h2>
+        <Link className="homeLink" to={'/Home'}>Home</Link>
+        <Link className="discographyLink" activeClassName="active" to={'/Discography'}>Discography</Link>
+        <Link className="contactLink" activeClassName="active" to={'/Contact'}>Contact</Link>
       </div>
     </div>
-  )
+    )
+  }
 }
 
 export default Header

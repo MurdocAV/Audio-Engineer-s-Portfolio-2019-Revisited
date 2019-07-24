@@ -6,6 +6,12 @@ import Contact from './Contact/Contact'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 class App extends React.Component {
+
+  state= {
+    active: 'Home'
+  }
+
+  
   
   render() {
     return (

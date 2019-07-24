@@ -10,23 +10,24 @@ html {
   overflow: hidden;
 }
 
-h2 {
+.homeLink, .discographyLink, .contactLink  {
+  font-size: 22px;
   margin-left: 1.45vw;
   text-transform: uppercase;
 }
 
-h2 a {
+.homeLink, .discographyLink, .contactLink {
   color: rgba(89, 89, 89, 0.9);
   opacity: 1;
   text-align: right;
   text-decoration: none;
 }
 
-.active a {
-  color: rgb(242, 242, 242);
+.active {
+  color: rgb(242, 242, 242)!important;
 }
 
-h2 a:hover {
+a:hover {
   color: rgb(191, 191, 191);
 }
 
