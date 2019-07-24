@@ -3,19 +3,6 @@ import {NavLink, IndexLink} from 'react-router-dom'
 
 class Header extends React.Component {
   
-
-  state = {
-    homeLink: 'homeLink',
-    discographyLink: 'discographyLink',
-    contactLink: 'contactLink'
-  }
-
-  //TODO: Run a function on click of a link to add the class of active to the clicked link.
-  setActiveClass (linkName) {
-    
-  }
-
-
   render () {
     return (
     <div className="header">

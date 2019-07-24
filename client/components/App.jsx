@@ -3,7 +3,7 @@ import Header from './Header'
 import Discography from './Discography/Discography'
 import Home from './Home/Home'
 import Contact from './Contact/Contact'
-import {HashRouter as Router, Route, IndexRoute} from 'react-router-dom'
+import {HashRouter as Router, Route} from 'react-router-dom'
 
 class App extends React.Component {
     
