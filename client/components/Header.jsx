@@ -1,11 +1,18 @@
 import React from 'react'
-import {Link, IndexLink, Route} from 'react-router-dom'
+import {NavLink, IndexLink} from 'react-router-dom'
 
 class Header extends React.Component {
   
+
+  state = {
+    homeLink: 'homeLink',
+    discographyLink: 'discographyLink',
+    contactLink: 'contactLink'
+  }
+
   //TODO: Run a function on click of a link to add the class of active to the clicked link.
-  logEvent (e) {
-    console.log(e)
+  setActiveClass (linkName) {
+    
   }
 
 
@@ -16,10 +23,9 @@ class Header extends React.Component {
         <h1 className="titleHeader">Name Placeholder</h1>
       </div>
       <div className="nav">
-        {/* NB First link also has experimental code. */}
-        <Link onClick={e => logEvent(e)} className="homeLink" to={'/Home'}>Home</Link>
-        <Link className="discographyLink" activeClassName="active" to={'/Discography'}>Discography</Link>
-        <Link className="contactLink" activeClassName="active" to={'/Contact'}>Contact</Link>
+        <NavLink className="homeLink" activeClassName="active" to={'/Home'}>Home</NavLink>
+        <NavLink className="discographyLink" activeClassName="active" to={'/Discography'}>Discography</NavLink>
+        <NavLink className="contactLink" activeClassName="active" to={'/Contact'}>Contact</NavLink>
       </div>
     </div>
     )
