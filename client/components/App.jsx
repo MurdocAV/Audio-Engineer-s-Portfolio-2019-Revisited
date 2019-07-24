@@ -11,15 +11,10 @@ class App extends React.Component {
     return (
       <Router>
         <Header />
-        {
-          // TODO: Add working links to go to different pages on the website.
-          // Use <Link activeClassName="active"/> (the activeClassName will help css rendering)
-        }
         <Route exact path="/" component={Discography} />
         <Route exact path="/Discography" component={Discography} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Contact" component={Contact} />
-
       </Router>
     )
   }
