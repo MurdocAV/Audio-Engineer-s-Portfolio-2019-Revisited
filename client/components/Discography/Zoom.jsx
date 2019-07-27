@@ -22,8 +22,10 @@ class Zoom extends React.Component {
           this.setShow(true)} />
 
         <Modal
+          size="xl"
           show={this.state.show}
           onHide={() => this.setShow(false)}
+          centered={true} 
           dialogClassName="modal-90w"
           aria-labelledby="example-custom-modal-styling-title"
         >
@@ -32,11 +34,13 @@ class Zoom extends React.Component {
               {this.props.info.albumName}
             </Modal.Title>
           </Modal.Header>
+
           <Modal.Body>
             <img className='albumModal' src={this.props.src} alt=""/>
             {/* {TODO: Create another component to see the track list} */}
             <p>Track List...</p>
           </Modal.Body>
+
         </Modal>
       </React.Fragment>
     )
