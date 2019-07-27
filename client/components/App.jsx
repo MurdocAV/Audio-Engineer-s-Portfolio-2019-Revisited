@@ -3,6 +3,7 @@ import Header from './Header'
 import Discography from './Discography/Discography'
 import Home from './Home/Home'
 import Contact from './Contact/Contact'
+import Welcome from './Welcome'
 import {HashRouter as Router, Route} from 'react-router-dom'
 
 class App extends React.Component {
@@ -11,7 +12,7 @@ class App extends React.Component {
     return (
       <Router>
         <Header />
-        <Route exact path="/" component={Discography} />
+        <Route exact path="/" component={Welcome} />
         <Route exact path="/Discography" component={Discography} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Contact" component={Contact} />
