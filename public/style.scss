@@ -28,6 +28,30 @@ html {
   2. Navigation
 ===============*/
 
+/* Full container */
+.header {
+  display: flex;
+  flex-direction: row;
+  grid-area: header;
+
+  /* Grid for the navigation bar only */
+  display: grid;
+  align-items: stretch;
+  grid-template-areas: 
+  "title gap gap nav";
+  grid-gap: 1em;
+}
+
+/* Links */
+
+.nav {
+  grid-area: nav;
+  float: right;
+  margin-left: 2.5vw;
+  display: flex;
+  flex-direction: row;
+}
+
 .homeLink, .discographyLink, .contactLink  {
   font-size: 22px;
   margin-left: 1.45vw;
@@ -39,47 +63,6 @@ html {
   opacity: 1;
   text-align: right;
   text-decoration: none;
-}
-
-.titleHeader {
-  float: left;
-  margin-left: 2.0vw;
-  color: rgb(242, 242, 242);
-  text-transform: uppercase;
-}
-
-.active {
-  color: rgb(242, 242, 242)!important;
-}
-
-a:hover {
-  color: rgb(191, 191, 191);
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  grid-area: header;
-
-  /* Grid for the navigation bar only */
-  display: grid;
-  align-items: stretch;
-  grid-template-areas: 
-  "title blank blank nav";
-  grid-gap: 1em;
-}
-
-.title {
-  margin-left: 0px;
-  grid-area: title;
-}
-
-.nav {
-  grid-area: nav;
-  float: right;
-  margin-left: 2.5vw;
-  display: flex;
-  flex-direction: row;
 }
 
 .homeLink {
@@ -94,6 +77,28 @@ a:hover {
     top: calc(+17.5vh + 2.5em);
     color: pink;
   }
+}
+
+.active {
+  color: rgb(242, 242, 242)!important;
+}
+
+a:hover {
+  color: rgb(191, 191, 191);
+}
+
+/* Title */
+
+.title {
+  margin-left: 0px;
+  grid-area: title;
+}
+
+.titleHeader {
+  float: left;
+  margin-left: 2.0vw;
+  color: rgb(242, 242, 242);
+  text-transform: uppercase;
 }
 
 /* ==============
