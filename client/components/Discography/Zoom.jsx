@@ -36,10 +36,10 @@ class Zoom extends React.Component {
 
                     <Modal.Body>
                         <div className="modalContent">
-                        <img className='albumModal' src={this.props.src} alt=""/> 
-                        { /* {TODO: Create another component to see the track list} */}
-                        <p className="modalDescription">Track List...</p>
-                        <h1>Description 2</h1>
+                            <img className='albumModal' src={this.props.src} alt=""/> 
+                            { /* {TODO: Create another component to see the track list} */}
+                            <p className="modalDescription">Track List...</p>
+                            <p>Description 2</p>
                         </div>
                     </Modal.Body>
 

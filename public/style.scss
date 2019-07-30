@@ -156,9 +156,16 @@ a:hover {
   border: 2px solid rgb(233,171,88);
   background-color: rgba(233,171,88,.5);
   color: #d9480f;
+  
+  display: flex;
+  flex-direction: row;
 }
 
 .albumModal {
+  border: 2px solid rgb(1,1,88);
+  background-color: rgba(1,1,88,.5);
+  color: rgba(1,1,88,.5);
+
   height: 470px;
   width: auto;
   z-index: 1; 
