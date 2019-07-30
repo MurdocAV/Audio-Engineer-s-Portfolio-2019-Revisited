@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink, IndexLink} from 'react-router-dom'
 
-class Header extends React.Component {
+class Navigation extends React.Component {
 
     render() {
         return (
@@ -22,4 +22,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header
+export default Navigation

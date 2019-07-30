@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Navigation from './Navigation'
 import Discography from './Discography/Discography'
 import Home from './Home/Home'
 import Contact from './Contact/Contact'
@@ -10,9 +10,9 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Header />
-        <Route exact path="/Discography" component={Discography} />
+        <Navigation />
         <Route exact path="/Home" component={Home} />
+        <Route exact path="/Discography" component={Discography} />
         <Route exact path="/Contact" component={Contact} />
       </Router>
     )
