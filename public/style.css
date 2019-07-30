@@ -20,34 +20,8 @@ html {
 /* ==============
   2. Navigation
 ===============*/
-.homeLink, .discographyLink, .contactLink {
-  font-size: 22px;
-  margin-left: 1.45vw;
-  text-transform: uppercase;
-}
-
-.homeLink, .discographyLink, .contactLink {
-  color: rgba(89, 89, 89, 0.9);
-  opacity: 1;
-  text-align: right;
-  text-decoration: none;
-}
-
-.titleHeader {
-  float: left;
-  margin-left: 2.0vw;
-  color: #f2f2f2;
-  text-transform: uppercase;
-}
-
-.active {
-  color: #f2f2f2 !important;
-}
-
-a:hover {
-  color: #bfbfbf;
-}
-
+/* Testing CSS */
+/* Full container */
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,23 +40,18 @@ a:hover {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-      grid-template-areas: "title blank blank nav";
+      grid-template-areas: "title gap gap nav";
   grid-gap: 1em;
 }
 
-.title {
-  margin-left: 0px;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: title;
-}
-
+/* Links */
 .nav {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
   grid-area: nav;
   float: right;
-  margin-left: 2.5vw;
+  padding-top: 4vh;
+  padding-bottom: 2.5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,6 +59,19 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.homeLink, .discographyLink, .contactLink {
+  font-size: 22px;
+  margin-left: 1.45vw;
+  text-transform: uppercase;
+}
+
+.homeLink, .discographyLink, .contactLink {
+  color: rgba(89, 89, 89, 0.9);
+  opacity: 1;
+  text-align: right;
+  text-decoration: none;
 }
 
 .homeLink {
@@ -104,6 +86,29 @@ a:hover {
   position: relative;
   top: calc(+17.5vh + 2.5em);
   color: pink;
+}
+
+.active {
+  color: #f2f2f2 !important;
+}
+
+a:hover {
+  color: #bfbfbf;
+}
+
+/* Title */
+.title {
+  margin-left: 0px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: title;
+}
+
+.titleHeader {
+  float: left;
+  margin-left: 2.0vw;
+  color: #f2f2f2;
+  text-transform: uppercase;
 }
 
 /* ==============
@@ -127,19 +132,6 @@ a:hover {
   cursor: pointer;
 }
 
-.albumModal {
-  height: 470px;
-  width: auto;
-  z-index: 1;
-  padding: 2vh;
-  position: relative;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .albumArt {
   height: 35vh;
   width: auto;
@@ -159,6 +151,26 @@ a:hover {
           transition-delay: 0.15s;
 }
 
+/* Zoom (Modal) Component */
+.modalContent {
+  border: 2px solid #e9ab58;
+  background-color: rgba(233, 171, 88, 0.5);
+  color: #d9480f;
+}
+
+.albumModal {
+  height: 470px;
+  width: auto;
+  z-index: 1;
+  padding: 2vh;
+  position: relative;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* Optional code to make albums spin on hover */
 /*
 .albumArt:hover {
@@ -172,6 +184,7 @@ a:hover {
   100% { opacity: 0.5;}
 } 
 */
+/* Album Positioning */
 .a1 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -198,7 +211,7 @@ a:hover {
 
 /* Only relevant code for the react-bootstrap modal */
 /* ========================
-  #9.9  Imported Modal Code
+  #9.9  Imported Modal Code (react-bootstrap)
 ==========================*/
 .modal-open {
   overflow: hidden;
