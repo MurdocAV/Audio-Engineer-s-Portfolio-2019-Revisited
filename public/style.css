@@ -156,6 +156,7 @@ a:hover {
   border: 2px solid #e9ab58;
   background-color: rgba(233, 171, 88, 0.5);
   color: #d9480f;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,6 +180,22 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.trackList {
+  border: 2px solid #f5224d;
+  background-color: rgba(245, 34, 77, 0.5);
+  color: rgba(245, 34, 77, 0.5);
+  margin-left: 50px;
+  z-index: 5;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* Optional code to make albums spin on hover */

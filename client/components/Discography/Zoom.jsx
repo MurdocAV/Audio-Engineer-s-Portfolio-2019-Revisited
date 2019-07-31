@@ -3,7 +3,8 @@ import Modal from 'react-bootstrap/Modal'
 
 class Zoom extends React.Component {
     state = {
-        show: false
+        show: false,
+        trackList: this.props.info.trackList
     }
 
     setShow(boolean) {
@@ -11,11 +12,16 @@ class Zoom extends React.Component {
         this.setState({show: boolean})
     }
 
+    returnTrackList() {
+        let trackHtml = this.state.trackList.forEach(track => track.trackId)
+
+        console.log('trackHtml print out ' + trackHtml)
+    }
+
     example() {
 
         return (
             <React.Fragment>
-                {console.log(this.props.info)}
                 <img
                     className='albumLink albumArt'
                     src={this.props.src}
@@ -37,9 +43,9 @@ class Zoom extends React.Component {
                     <Modal.Body>
                         <div className="modalContent">
                             <img className='albumModal' src={this.props.src} alt=""/> 
-                            { /* {TODO: Create another component to see the track list} */}
-                            <p className="modalDescription">Track List...</p>
-                            <p>Description 2</p>
+                            <div className="trackList">
+                            {this.returnTrackList()}
+                            </div>
                         </div>
                     </Modal.Body>
 
