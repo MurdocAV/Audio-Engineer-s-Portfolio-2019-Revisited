@@ -13,9 +13,12 @@ class Zoom extends React.Component {
     }
 
     returnTrackList() {
-        let trackHtml = this.state.trackList.forEach(track => track.trackId)
+        let trackHtml = this.state.trackList.map(track => {
+            let output = (<li key={track.trackId}>{`No#${track.trackId}: ${track.title}`}</li>)
+            return output
+        })
 
-        console.log('trackHtml print out ' + trackHtml)
+        return trackHtml
     }
 
     example() {
