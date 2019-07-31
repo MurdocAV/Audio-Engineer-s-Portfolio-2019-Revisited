@@ -37,8 +37,8 @@ class Zoom extends React.Component {
                     centered={true}
                     dialogClassName="modal-90w"
                     aria-labelledby="example-custom-modal-styling-title">
-                    <Modal.Header closeButton>
-                        <Modal.Title id="example-custom-modal-styling-title">
+                    <Modal.Header >
+                        <Modal.Title className="modalTitle" id="example-custom-modal-styling-title">
                             {this.props.info.albumName}
                         </Modal.Title>
                     </Modal.Header>
