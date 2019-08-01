@@ -496,12 +496,16 @@ a:hover {
 }
 
 button.close {
+  font-size: 1em;
   padding: 0;
   background-color: transparent;
   border: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border: 2px solid #f5224d;
+  background-color: rgba(245, 34, 77, 0.5);
+  color: rgba(245, 34, 77, 0.5);
 }
 
 @media (min-width: 992px) {
