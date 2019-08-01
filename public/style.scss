@@ -176,6 +176,7 @@ a:hover {
 }
 
 .trackList {
+  font-size: 1em;
   margin-left: 50px;
   z-index: 5;
   padding: 10px;
@@ -184,9 +185,10 @@ a:hover {
 }
 
 .modalTitle {
-  border: 2px solid rgb(245, 34, 77);
-  background-color: rgba(245, 34, 77,.5);
-  color: rgba(245, 34, 77,.5);
+  font-size: 1.5em;
+  // border: 2px solid rgb(245, 34, 77);
+  // background-color: rgba(245, 34, 77,.5);
+  // color: rgba(245, 34, 77,.5);
   width: 100%;
   text-align: center;
 }
