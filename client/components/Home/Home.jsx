@@ -4,7 +4,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className='home'>
-        <h1 className='homeText'>Based in Auckland</h1>
+        <h1 className='homeText'>Name Placeholder is a audio Based in Auckland</h1>
       </div>
     )
   }
