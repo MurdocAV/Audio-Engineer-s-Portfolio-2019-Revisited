@@ -4,13 +4,11 @@ class Contact extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className='contact'>
+        <div className='contactDiv'>
           <h1 className='contactText'>Contact us on 0800 83 83 83, email@gmail.com</h1>
-          <img src="https://via.placeholder.com/150" alt="placeholder image"/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+          <div className="contactImg">
+            <img className="" src="https://via.placeholder.com/150" alt="placeholder image"/>
+          </div>
           {
             //Implement css
           }
