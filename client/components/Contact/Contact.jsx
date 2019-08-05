@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer'
 class Contact extends React.Component {
   render() {
     return (
@@ -13,6 +13,7 @@ class Contact extends React.Component {
             //Implement css
           }
           <p className="footer">&copy; Name placeholder. All rights reserved.</p>
+          <Footer />
         </div>
       </React.Fragment>
     )
