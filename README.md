@@ -7,4 +7,4 @@ Version 0.3 - Start: July 28th 2019; Router links and modals on discography. Imp
 Originally my first website (see legacy branch), revisted and still has old files and a lot of old stupid code that will be refactored on release.
 Redux might be used to simplify data management but at the moment it is all passed via props.
 
-Boilerplate: React minimal from EDA's web development course!
+Boilerplate: React minimal from EDA's web development course.
