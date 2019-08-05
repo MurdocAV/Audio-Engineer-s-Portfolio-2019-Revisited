@@ -14,11 +14,16 @@ class Zoom extends React.Component {
 
     returnTrackList() {
         let trackHtml = this.state.trackList.map(track => {
-            let output = (<li key={track.trackId}>{`No#${track.trackId}: ${track.title}`}</li>)
+            let output = (
+            <li key={track.trackId}>
+                {`No#${track.trackId}: `}
+                <strong>{`${track.title}`}</strong>
+                </li>
+            )
             return output
         })
 
-        return trackHtml
+        return <ul className='modalTrackList'>{trackHtml}</ul>
     }
 
     example() {

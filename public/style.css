@@ -152,9 +152,6 @@ a:hover {
 
 /* Zoom (Modal) Component */
 .modalContent {
-  border: 2px solid #e9ab58;
-  background-color: rgba(233, 171, 88, 0.5);
-  color: #d9480f;
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,9 +163,6 @@ a:hover {
 }
 
 .albumModal {
-  border: 2px solid #010158;
-  background-color: rgba(1, 1, 88, 0.5);
-  color: rgba(1, 1, 88, 0.5);
   height: 470px;
   width: auto;
   z-index: 1;
@@ -199,6 +193,10 @@ a:hover {
   font-size: 1.5em;
   width: 100%;
   text-align: center;
+}
+
+.modalTrackList {
+  list-style: none;
 }
 
 /* Optional code to make albums spin on hover */
