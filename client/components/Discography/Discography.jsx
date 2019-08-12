@@ -11,6 +11,10 @@ function Discography (props) {
       <Album albumClass="2" />
       <Album albumClass="3" />
       <Album albumClass="4" />
+      <Album albumClass="5" />
+      <Album albumClass="6" />
+      <Album albumClass="7" />
+      <Album albumClass="8" />
     </div>
   )
 }

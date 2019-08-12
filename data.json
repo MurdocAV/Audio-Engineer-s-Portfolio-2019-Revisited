@@ -120,6 +120,126 @@
           {"trackId" : 17, "title" : "Candy Paint"},
           {"trackId" : 18, "title" : 	"Sugar Wraith"}
         ]
+    },
+
+    "5" : {
+      "id" : "5",
+      "albumName" : "Villians",
+      "artist" : "Queens of the Stone Age",
+      "year" : "2019",
+      "releaseDate" : "May 5, 2017",
+      "artwork" : "./images/Villians.png",
+      "trackList" : 
+        [
+          {"trackId" : 1, "title" : "Paranoid"},
+          {"trackId" : 2, "title" : "Spoil My Night", "featuring" : " Swae Lee" },
+          {"trackId" : 3, "title" :	"Rich & Sad"},
+          {"trackId" : 4, "title" : "Zack and Codeine"},
+          {"trackId" : 5, "title" : "Takin' Shots"},
+          {"trackId" : 6, "title" :	"Rockstar", "featuring" : "21 Savage"},
+          {"trackId" : 7, "title" : "Over Now"},
+          {"trackId" : 8, "title" : "Psycho", "featuring" : "Ty Dolla Sign)"},
+          {"trackId" : 9, "title" : "Better Now"},
+          {"trackId" : 10, "title" : 	"Ball for Me", "featuring" : "Nicki Minaj"},
+          {"trackId" : 11, "title" : "Otherside"},
+          {"trackId" : 12, "title" : "Stay"},
+          {"trackId" : 13, "title" : "Blame It on Me"},
+          {"trackId" : 14, "title" : "Same Bitches", "featuring" : "G-Eazy and YG"},
+          {"trackId" : 15, "title" : "Jonestown (Interlude)"},
+          {"trackId" : 16, "title" : "92 Explorer"},
+          {"trackId" : 17, "title" : "Candy Paint"},
+          {"trackId" : 18, "title" : 	"Sugar Wraith"}
+        ]
+    },
+
+    "6" : {
+      "id" : "6",
+      "albumName" : "The 1975",
+      "artist" : "The 1975",
+      "year" : "2017",
+      "releaseDate" : "May 5, 2017",
+      "artwork" : "./images/The 1975.jpg",
+      "trackList" : 
+        [
+          {"trackId" : 1, "title" : "Paranoid"},
+          {"trackId" : 2, "title" : "Spoil My Night", "featuring" : " Swae Lee" },
+          {"trackId" : 3, "title" :	"Rich & Sad"},
+          {"trackId" : 4, "title" : "Zack and Codeine"},
+          {"trackId" : 5, "title" : "Takin' Shots"},
+          {"trackId" : 6, "title" :	"Rockstar", "featuring" : "21 Savage"},
+          {"trackId" : 7, "title" : "Over Now"},
+          {"trackId" : 8, "title" : "Psycho", "featuring" : "Ty Dolla Sign)"},
+          {"trackId" : 9, "title" : "Better Now"},
+          {"trackId" : 10, "title" : 	"Ball for Me", "featuring" : "Nicki Minaj"},
+          {"trackId" : 11, "title" : "Otherside"},
+          {"trackId" : 12, "title" : "Stay"},
+          {"trackId" : 13, "title" : "Blame It on Me"},
+          {"trackId" : 14, "title" : "Same Bitches", "featuring" : "G-Eazy and YG"},
+          {"trackId" : 15, "title" : "Jonestown (Interlude)"},
+          {"trackId" : 16, "title" : "92 Explorer"},
+          {"trackId" : 17, "title" : "Candy Paint"},
+          {"trackId" : 18, "title" : 	"Sugar Wraith"}
+        ]
+    },
+
+    "7" : {
+      "id" : "7",
+      "albumName" : "LONG.LIVE.A$AP",
+      "artist" : "A$AP ROCKY",
+      "year" : "2017",
+      "releaseDate" : "May 5, 2017",
+      "artwork" : "./images/LONG.LIVE.A$AP.jpg",
+      "trackList" : 
+        [
+          {"trackId" : 1, "title" : "Paranoid"},
+          {"trackId" : 2, "title" : "Spoil My Night", "featuring" : " Swae Lee" },
+          {"trackId" : 3, "title" :	"Rich & Sad"},
+          {"trackId" : 4, "title" : "Zack and Codeine"},
+          {"trackId" : 5, "title" : "Takin' Shots"},
+          {"trackId" : 6, "title" :	"Rockstar", "featuring" : "21 Savage"},
+          {"trackId" : 7, "title" : "Over Now"},
+          {"trackId" : 8, "title" : "Psycho", "featuring" : "Ty Dolla Sign)"},
+          {"trackId" : 9, "title" : "Better Now"},
+          {"trackId" : 10, "title" : 	"Ball for Me", "featuring" : "Nicki Minaj"},
+          {"trackId" : 11, "title" : "Otherside"},
+          {"trackId" : 12, "title" : "Stay"},
+          {"trackId" : 13, "title" : "Blame It on Me"},
+          {"trackId" : 14, "title" : "Same Bitches", "featuring" : "G-Eazy and YG"},
+          {"trackId" : 15, "title" : "Jonestown (Interlude)"},
+          {"trackId" : 16, "title" : "92 Explorer"},
+          {"trackId" : 17, "title" : "Candy Paint"},
+          {"trackId" : 18, "title" : 	"Sugar Wraith"}
+        ]
+    },
+
+    "8" : {
+      "id" : "8",
+      "albumName" : "Spirits Having Flown",
+      "artist" : "Bee Gees",
+      "year" : "2017",
+      "releaseDate" : "May 5, 2017",
+      "artwork" : "./images/Spirits Having Flown.jpg",
+      "trackList" : 
+        [
+          {"trackId" : 1, "title" : "Paranoid"},
+          {"trackId" : 2, "title" : "Spoil My Night", "featuring" : " Swae Lee" },
+          {"trackId" : 3, "title" :	"Rich & Sad"},
+          {"trackId" : 4, "title" : "Zack and Codeine"},
+          {"trackId" : 5, "title" : "Takin' Shots"},
+          {"trackId" : 6, "title" :	"Rockstar", "featuring" : "21 Savage"},
+          {"trackId" : 7, "title" : "Over Now"},
+          {"trackId" : 8, "title" : "Psycho", "featuring" : "Ty Dolla Sign)"},
+          {"trackId" : 9, "title" : "Better Now"},
+          {"trackId" : 10, "title" : 	"Ball for Me", "featuring" : "Nicki Minaj"},
+          {"trackId" : 11, "title" : "Otherside"},
+          {"trackId" : 12, "title" : "Stay"},
+          {"trackId" : 13, "title" : "Blame It on Me"},
+          {"trackId" : 14, "title" : "Same Bitches", "featuring" : "G-Eazy and YG"},
+          {"trackId" : 15, "title" : "Jonestown (Interlude)"},
+          {"trackId" : 16, "title" : "92 Explorer"},
+          {"trackId" : 17, "title" : "Candy Paint"},
+          {"trackId" : 18, "title" : 	"Sugar Wraith"}
+        ]
     }
   }
 }
