@@ -62,20 +62,20 @@ html {
           flex-direction: row;
 }
 
-.homeLink, .discographyLink, .contactLink {
+.Link {
   font-size: 22px;
   margin-left: 1.45vw;
   text-transform: uppercase;
 }
 
-.homeLink, .discographyLink, .contactLink {
+.Link {
   color: rgba(89, 89, 89, 0.9);
   opacity: 1;
   text-align: right;
   text-decoration: none;
 }
 
-.homeLink {
+.home .Link {
   margin-left: 45.0vw;
 }
 
